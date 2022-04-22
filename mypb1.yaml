@@ -2,10 +2,12 @@
 
 - name: secondplaybook
   hosts: all
+  vars: 
+    URL: www.munna.org
   tasks:
     - name: ping the hosts
       ping:
     - name: ping the debug
       debug: 
-        msg: "hello be healthy "
+        msg: "hello be healthy{{ URL }} "
 ...
