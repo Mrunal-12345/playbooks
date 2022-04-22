@@ -11,5 +11,5 @@
       debug:
       msg: "hello be healthy  {{ URL }} "
       vars:
-        URL: www.kiran.org
+        URL: "www.kiran.org"
 ...
