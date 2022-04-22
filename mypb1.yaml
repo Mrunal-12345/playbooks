@@ -8,6 +8,8 @@
     - name: ping the hosts
       ping:
     - name: ping the debug
-      debug: 
+      debug:
+      vars:
+        URL: www.kiran.org 
         msg: "hello be healthy  {{ URL }} "
 ...
