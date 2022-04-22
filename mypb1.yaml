@@ -9,7 +9,7 @@
       ping:
     - name: ping the debug
       debug:
-      msg: "hello be healthy  {{ URL }} "
+        msg: "hello be healthy  {{ URL }} "
       vars:
         URL: "www.kiran.org"
 ...
